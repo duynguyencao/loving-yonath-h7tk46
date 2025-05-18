@@ -1,0 +1,53 @@
+.main-topbar-buffer {
+    margin-top: 70px;
+}
+
+.main-grid-item {
+    height: calc(100vh - 85px);
+    padding: 10px;
+}
+
+.user-detail {
+    padding: 20px;
+}
+
+.user-photos {
+    padding: 20px;
+}
+
+
+/* Add some spacing between list items */
+
+.MuiListItem-root {
+    margin-bottom: 4px;
+}
+
+
+/* Make sure images don't overflow their containers */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* TopBar styles */
+
+.MuiToolbar-root {
+    min-height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.MuiTypography-root {
+    display: block;
+}
+
+.MuiPaper-root {
+    padding: 20px;
+}
+
+.cs142-topbar-appBar {
+    height: 60px;
+    justify-content: center;
+}
